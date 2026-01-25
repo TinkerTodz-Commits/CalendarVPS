@@ -1,0 +1,18 @@
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Node modules (if any for testing tools)
+node_modules/
+.npm/
+
+# Cloudflare / Editor specific
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Log files
+*.log
+npm-debug.log*
