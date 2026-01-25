@@ -3,12 +3,12 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- CONFIG ---
     const stack = document.getElementById('calendarStack');
     const images = [
-        'calendar_pages/01_jan_feb.jpg',
-        'calendar_pages/02_mar_apr.jpg',
-        'calendar_pages/03_may_june.jpg',
-        'calendar_pages/04_jul_aug.jpg',
-        'calendar_pages/05_sep_oct.jpg',
-        'calendar_pages/06_nov_dec.jpg'
+        'calendar_pages/01_jan_feb.png',
+        'calendar_pages/02_mar_apr.png',
+        'calendar_pages/03_may_june.png',
+        'calendar_pages/04_jul_aug.png',
+        'calendar_pages/05_sep_oct.png',
+        'calendar_pages/06_nov_dec.png'
     ];
     let currentIndex = 0; // The page visible on TOP
     const total = images.length;
