@@ -103,11 +103,17 @@ document.addEventListener('DOMContentLoaded', () => {
         // Ignore clicks on controls
         if (e.target.closest('.controls-container')) return;
 
-        // Simple logic: Left half = Prev, Right half = Next?
-        // OR just Next as requested. Let's do Next for simplicity, or check Click X.
+        const screenWidth = window.innerWidth;
+        const clickX = e.clientX;
 
-        // If user clicks, go next
-        goNext();
+        // Right side (more towards December/Forward)
+        if (clickX > screenWidth / 2) {
+            goNext();
+        }
+        // Left side (Previous/Backward)
+        else {
+            goPrev();
+        }
     });
 
     // Keyboard
