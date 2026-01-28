@@ -213,11 +213,9 @@ h1 {
 
     .powered-by {
         width: 90px;
-        bottom: auto;
-        /* Reset bottom */
-        top: 15px;
-        /* Move to top right corner */
+        bottom: 20px;
         right: 15px;
+        top: auto;
     }
 }
 
