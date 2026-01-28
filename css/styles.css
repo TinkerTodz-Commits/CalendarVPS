@@ -88,7 +88,9 @@ h1 {
     bottom: 0;
 
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    padding-top: 5px;
+    /* Tiny gap for aesthetics, effectively touching */
     justify-content: center;
 
     background: transparent;
