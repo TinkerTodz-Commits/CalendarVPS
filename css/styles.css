@@ -146,13 +146,13 @@ h1 {
 
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 10px;
     z-index: 2000;
     /* On top of everything */
 
     background: rgba(40, 35, 30, 0.9);
     backdrop-filter: blur(10px);
-    padding: 10px 25px;
+    padding: 6px 15px;
     border-radius: 50px;
     border: 1px solid rgba(255, 255, 255, 0.15);
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
@@ -162,11 +162,11 @@ h1 {
     background: transparent;
     border: none;
     color: #F5F1E6;
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     font-weight: 600;
     cursor: pointer;
-    width: 30px;
-    height: 30px;
+    width: 24px;
+    height: 24px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -190,7 +190,7 @@ h1 {
 
 .divider {
     width: 1px;
-    height: 20px;
+    height: 16px;
     background: rgba(255, 255, 255, 0.2);
 }
 
@@ -207,13 +207,22 @@ h1 {
     }
 
     .controls-container {
-        padding: 8px 20px;
-        bottom: 20px;
+        padding: 5px 12px;
+        bottom: 70px;
+        /* Moved up to clear the logo */
+        gap: 8px;
+        /* Tighter gap for mobile */
+    }
+
+    .ctrl-btn {
+        width: 22px;
+        height: 22px;
+        font-size: 0.8rem;
     }
 
     .powered-by {
-        width: 90px;
-        bottom: 20px;
+        width: 80px;
+        bottom: 15px;
         right: 15px;
         top: auto;
     }
