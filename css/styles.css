@@ -221,11 +221,10 @@ h1 {
     }
 
     .school-logo {
-        width: 50px;
-        height: 50px;
-        object-fit: cover;
-        border-radius: 8px;
-        /* Slightly tighter radius for smaller size */
+        width: 4cm;
+        height: 4cm;
+        object-fit: contain;
+        border-radius: 12px;
     }
 
     .school-logo-container {
